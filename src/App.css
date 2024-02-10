@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  background-image: url("https://media.istockphoto.com/id/917266744/vector/social-media-line-seamless-pattern.jpg?s=612x612&w=0&k=20&c=J-G0wp_JL-DpAr0UfNR5J2qSXSsjnETUfLzWntAdHTM=");
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
